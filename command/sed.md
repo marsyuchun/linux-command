@@ -232,7 +232,8 @@ sed表达式可以使用单引号来引用，但是如果表达式内部包含�
 
 ```shell
 test=hello
-echo hello WORLD | sed "s/$test/HELLO"
+正则表达式错误了
+echo hello WORLD | sed "s/$test/HELLO/"
 HELLO WORLD
 ```
 
